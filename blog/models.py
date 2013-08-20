@@ -8,3 +8,4 @@ class Post(models.Model):
 
 	def __unicode__(self):
 		return str(self.id) +"/" +str(self.created_at) +"/"+ self.title +'/'+ self.content +"\n"
+	
